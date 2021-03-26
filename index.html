@@ -9,24 +9,40 @@
   <meta name="author" content="mike who">
 
   <style>
-  body {
-    background-image: url("whoisjerseymike.png");
-    /* background-repeat: repeat; */
-  }
-  h1 {
-    color: #ffffff;
-  }
-  h2 {
-    color: #C7C5C8;
-  }
+    @media (max-width: 600px) {
+      body {
+        background-image: url("whoisjerseymike-small.png");
+        background-position: top right center;
+      }
+      
+    }
+    @media (min-width: 600px) {
+        body {
+          background-image: url("whoisjerseymike.png");
+        }
+    }
+
+    h1 {
+      color: #fff;
+      text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+    }
+    h2 {
+      color: #C7C5C8;
+      text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+    }
+   
   </style>
 
 </head>
 
 <body>
 <marquee><h2>who <strong><i>IS</i></strong> he</h2></marquee>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<h1> sign up for updates </h1>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<h1> <i>sign up for updates</i> </h1>
 <form action="https://mailthis.to/whoisjerseymike"
     method="POST" encType="multipart/form-data">
     <input type="text" name="name" placeholder="Your name">
